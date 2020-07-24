@@ -1,19 +1,33 @@
 body{
-    border: solid red 1px;
+    border: solid white 1px;
 }
 h1{
-    border: solid red 1px;
+    border: solid green 1px;
     text-align: center;    
-    color: blue;
+    color: cyan;
+    font-family: Cambria;
+    background-color: blue;
 }
 p{
     color:black;
-    text-align: center;
+    font-size: large;
+    font-family: Times New Roman;
 
 }
-h2{
-    color: green;
-    border: solid white 2px;
+#p-1{
+    color: black;
+    font-size: small;
+    font-family: Arial;
+}
+#p-2{
+    color:black;
+    font-size: large;
+    font-family: Times New Roman;
+}
+#p-3{
+    color: black;
+    font-size: small;
+    font-family: Arial;
 }
 img{
     height: 600px;
