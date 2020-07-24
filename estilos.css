@@ -23,6 +23,7 @@ p{
     color:black;
     font-size: large;
     font-family: Times New Roman;
+    text-align: center;
 }
 #p-3{
     color: black;
@@ -34,6 +35,6 @@ p{
     font-size: x-large;
 }
 img{
-    height: 500px;
+    height: 400px;
     width: 600px;
 }
