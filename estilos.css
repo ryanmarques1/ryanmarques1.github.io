@@ -20,7 +20,9 @@ p{
     font-family: Arial;
 }
 #p-2{
-    color:black;
+    border: solid green 1px;
+    background-color: blue;
+    color:cyan;
     font-size: large;
     font-family: Times New Roman;
     text-align: center;
