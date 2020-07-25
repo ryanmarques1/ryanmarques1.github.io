@@ -16,7 +16,7 @@ h2{
     color:black;
     font-size: large;
     font-family: Times New Roman;
-    padding: 1px 2px 3px;
+    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -47,4 +47,21 @@ img{
     height: 400px;
     width: 600px;
     padding: 1px;
+}
+#i-1{
+    height: 50px;
+    width: 70px;
+    padding-left: 1px;
+}
+#i-2{
+    height: 50px;
+    width: 70px;
+}
+#i-3{
+    height: 50px;
+    width: 70px;
+}
+#i-4{
+    height: 50px;
+    width: 70px;
 }
