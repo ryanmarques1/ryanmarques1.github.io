@@ -2,6 +2,9 @@ body{
     border: solid white 0px;
     background-color:darkgrey;
 }
+/*#imgF{
+    background-color: teal;
+}*/
 h1{
     border: solid green 1px;
     text-align: center;    
@@ -23,6 +26,7 @@ h2{
     padding-right: 10px;
     margin: 10px;
     font-style: initial;
+    text-align: center;
 
 }
 #p-1{
@@ -64,19 +68,7 @@ h2{
     width: 70px;
     padding-left: 1px;
 }
-.i-1{
-    height: 50px;
-    width: 70px;
-    padding-left: 1px;
+#h-2{
+    color: white;
+    text-align: center;
 }
-.i-1{
-    height: 50px;
-    width: 70px;
-    padding-left: 1px;
-}
-.i-1{
-    height: 50px;
-    width: 70px;
-    padding-left: 1px;
-}
-
