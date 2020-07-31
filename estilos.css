@@ -17,6 +17,7 @@ h1{
     margin: 10px;
     font-size:large;
 }
+
 h2{
     color:black;
     font-size: large;
@@ -52,20 +53,17 @@ h2{
     font-size: small;
     font-family: Arial;
 }
-#p-4{
-    color:black;
-    font-size: medium;
-    
-}
 /*#p-5{
 
 }*/
+/*
 #e-1{
     height: 400px;
     width: 600px;
     padding: 1px;
     margin: 10px;
 }
+*/
 .i-1{
     height: 50px;
     width: 70px;
@@ -75,6 +73,10 @@ h2{
     color: white;
     text-align: center;
 }
+.videos{
+    text-align: center;
+}
+
 /*
 #OqE{
     background-color:
