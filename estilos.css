@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     border: solid white 0px;
     background-color:darkgrey;
 }
@@ -6,16 +7,16 @@ body{
     background-color: teal;
 }*/
 h1{
-    border: solid green 1px;
+    
     text-align: center;    
     color: cyan;
-    font-family: Cambria;
-    background-color:blue;
+    font-family: Cambria;    
     padding: 1px;
     padding-left: 5px;
     padding-right: 5px;
     margin: 10px;
-    font-size:large;
+    font-size:xx-large;
+    margin:0;
 }
 
 h2{
@@ -28,7 +29,6 @@ h2{
     margin: 10px;
     font-style: initial;
     text-align: center;
-
 }
 #p-1{
     color: black;
@@ -53,9 +53,19 @@ h2{
     font-size: small;
     font-family: Arial;
 }
+#p-4{
+    color: cyan;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 /*#p-5{
 
 }*/
+#p-6{
+    color: cyan;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 /*
 #e-1{
     height: 400px;
@@ -66,23 +76,100 @@ h2{
 */
 .i-1{
     height: 50px;
-    width: 70px;
+    width: 15%;
     padding-left: 1px;
 }
 #h-2{
     color: white;
     text-align: center;
+    font-size: x-large;
+    border-top: red solid 2px;
 }
-.videos{
+#logo{
+    width: 15%;
+    height: 80px;
+}
+#logo img{
+    width: 100%;
+}
+header{
+    background-color:darkblue;
+    margin: 0;
+    /*
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    */
+}
+ul{
+    list-style: none;
+    margin: 0;
+    color:aqua;
+}
+li{
+    float: left;
+    padding: 30px 15px 15px 15px;
+       
+}
+
+li:hover{
+    background-color:darkcyan;
+}
+
+.a1{
+    text-decoration: none;
+    color:whitesmoke;
+    text-shadow: none;
+    font-size: 20px;
+    border: oldlace solid 2px;
+    padding: 5px 20px;
+    border-radius: 40px;
+}
+#menu{
+    float: right;
+    margin: auto;
+    height: 60px;
+}
+footer{
+    background-color: darkblue;
+}
+#conta:hover{
+    background-color: rgb(111, 111, 155);
+    text-align: center;
+    font-weight: bolder;
+    transition: .2s;
+}
+#se-2{
+    background: url("imagens/fundos/fundo.png");
+    color: darkgray;
+    height: 560px;
+    background-size: cover;
+    margin-top:20px;
+    padding:200px 150px 0;
+    box-sizing: border-box;
+} 
+h3{
     text-align: center;
 }
-
-/*
-#OqE{
-    background-color:
+.coluna{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
 }
-
-#vaE{
+.videos{
+    text-align:left;
+}
+.just{
+    text-align: justify;
+}
+/*
+#cont{
+    float: left;
+}
+*/
+/*
+#cont2{
 
 }
 #contri{
@@ -92,3 +179,4 @@ h2{
 
 }
 */
+
