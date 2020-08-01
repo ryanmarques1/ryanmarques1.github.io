@@ -9,8 +9,8 @@ body{
 h1{
     
     text-align: center;    
-    color: cyan;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    color: black;
+    font-family: Cambria;    
     padding: 1px;
     padding-left: 5px;
     padding-right: 5px;
@@ -31,12 +31,7 @@ h2{
     font-style: initial;
     text-align: center;
 }
-#p-1{
-    color: black;
-    font-size: small;
-    font-family: Arial;
-    font-style: initial;
-}
+
 #p-2{
     border: solid green 1px;
     background-color: blue;
@@ -142,7 +137,7 @@ li:hover{
     height: 60px;
 }
 footer{
-    background-color: darkblue;
+    background-color:rgb(77, 77, 133);
 }
 #conta:hover{
     background-color: rgb(111, 111, 155);
@@ -165,40 +160,77 @@ h3{
 /*Corpo1*/  
 #cont{
     margin: 1px;
-    float: left;
-    background-color:gray;
-    padding: 1%;
+    background-color:rgb(196, 196, 196);
 }
 #projeto {
     line-height: 2;
-    width: 45%;
     text-transform: uppercase;
-    float: right;
-    padding: 1%;
-    margin: 0 1% 1%;
 }
 #videos{
-    float: left;
-    width: 50%;
-    /*height: 250px;*/
+    
+}
+#p-1{
+    color: black;
+    font-size: small;
+    font-family:Arial;
+    font-style: initial;
+    text-transform: uppercase;
 }
 .just{
     text-align: justify;
 }
 .colum{
-
+    float: left;
+    padding: 1%;
+}
+.colum2{
+    width: 45%;
+    margin: 0 1% 1% 1%;
+}
+.colum3{
+    width: 25%;
+    margin: 0 1% 1%;
+}
+.colum4{
+    width: 19%;
+    margin: 0 1% 1%;
 }
 
 /*Corpo1END*/
-/*
+
 #cont2{
+    margin: 0;
+    background-color:rgb(168, 168, 168);
+}
+#vantagem{
 
 }
+#pa-1{
+    color: black;
+    font-size: small;
+    font-family:Arial;
+    font-style: initial;
+    text-transform: uppercase;
+}
+.v-1{
+    color:black;
+    font-size: x-large;
+    font-family: 'Gill Sans MT';
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-style: initial;
+    text-align: center;
+}
+
 #contri{
+    background-color: rgb(219, 219, 219);
 
 }
-#cep{
 
+#projetos{
+    background-color: rgb(202, 202, 202);
 }
-*/
+
 
