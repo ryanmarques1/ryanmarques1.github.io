@@ -166,7 +166,7 @@ h3{
 #cont{
     margin: 1px;
     float: left;
-    background-color:grey;
+    background-color:gray;
     padding: 1%;
 }
 #projeto {
@@ -175,11 +175,18 @@ h3{
     text-transform: uppercase;
     float: right;
     padding: 1%;
-    text-align: justify;
+    margin: 0 1% 1%;
 }
 #videos{
-    text-align:left;
-    width: 45%;
+    float: left;
+    width: 50%;
+    /*height: 250px;*/
+}
+.just{
+    text-align: justify;
+}
+.colum{
+
 }
 
 /*Corpo1END*/
