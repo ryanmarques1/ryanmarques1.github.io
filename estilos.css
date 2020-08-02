@@ -104,7 +104,7 @@ ul{
 }
 li{
     float: left;
-    padding: 20px 15px 15px 15px;
+    padding: 25px 15px 15px 15px;
        
 }
 li:hover{
@@ -159,19 +159,19 @@ h3{
 }
 #projeto {
     line-height: 2;
-    text-transform: uppercase;
+    
 }
 /*
 #videos{
     height: 300px;   
 }
 */
-#p-1{
+.p-1{
     color: black;
     font-size: small;
     font-family:Arial;
     font-style: initial;
-    text-transform: uppercase;
+    
 }
 .just{
     text-align: justify;
@@ -186,24 +186,32 @@ h3{
 }
 .colum3{
     width: 26%;
-    margin: 0 1% 1%;
+    margin: 0 1%;
 }
 .colum4{
     width: 18%;
-    margin: 0 1% 1%;
+    margin: 0 2.2%;
 }
 
 /*Corpo1END*/
 
 #cont2{
     margin: 0;
-    background-color:rgb(168, 168, 168);
+    background-color:rgb(145, 145, 145)
 }
-/*
+#van1{
+    color: black;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #vantagem{
-
+    width: 100%;
 }
-*/
+.img1{
+    width: 45%;
+    height: 315px;
+    text-align: center;
+}
 #pa-1{
     color: black;
     font-size: small;
@@ -221,10 +229,11 @@ h3{
     margin: 10px;
     font-style: initial;
     text-align: center;
+
 }
 
 #contri{
-    background-color: rgb(219, 219, 219);
+    background-color: white;
 
 }
 
@@ -234,9 +243,15 @@ h3{
 #proj{
     line-height: 2;
 }
+#proj2{
+    line-height: 2;
+}
 #video{
+    float: left;
+    padding: 1%;   
+}
+#video2{
     float: right;
     padding: 1%;
-    
 }
 
