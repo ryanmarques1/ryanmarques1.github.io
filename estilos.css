@@ -166,9 +166,11 @@ h3{
     line-height: 2;
     text-transform: uppercase;
 }
+/*
 #videos{
-    
+    height: 300px;   
 }
+*/
 #p-1{
     color: black;
     font-size: small;
@@ -202,9 +204,11 @@ h3{
     margin: 0;
     background-color:rgb(168, 168, 168);
 }
+/*
 #vantagem{
 
 }
+*/
 #pa-1{
     color: black;
     font-size: small;
