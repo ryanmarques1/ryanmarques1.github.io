@@ -154,7 +154,7 @@ h3{
 }
 /*Corpo1*/  
 #cont{
-    margin: 1px;
+    margin: 0;
     background-color:rgb(196, 196, 196);
 }
 #projeto {
@@ -197,7 +197,7 @@ h3{
 
 #cont2{
     margin: 0;
-    background-color:rgb(145, 145, 145)
+    background-color:rgb(196, 196, 196);
 }
 #van1{
     color: black;
@@ -238,7 +238,7 @@ h3{
 }
 
 #projetos{
-    background-color: rgb(202, 202, 202);
+    background-color:rgb(196, 196, 196);
 }
 #proj{
     line-height: 2;
