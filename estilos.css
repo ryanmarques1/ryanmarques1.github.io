@@ -249,5 +249,7 @@ h3{
 }
 /* Responsividade*/
 @media screen and(max-width:800px){
-
+    #menu{
+        visibility: hidden;
+    }
 }
