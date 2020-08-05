@@ -3,9 +3,7 @@ body{
     border: solid white 0px;
     background-color:honeydew;
 }
-/*#imgF{
-    background-color: teal;
-}*/
+
 h1{
     
     text-align: center;    
@@ -54,22 +52,13 @@ h2{
     font-size: small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/*#p-5{
 
-}*/
 #p-6{
     color:black;
     font-size: small;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-/*
-#e-1{
-    height: 400px;
-    width: 600px;
-    padding: 1px;
-    margin: 10px;
-}
-*/
+
 .i-1{
     height: 50px;
     width: 10%;
@@ -216,7 +205,7 @@ h3{
 .v-1{
     color:black;
     font-size: x-large;
-    font-family: 'Gill Sans MT';
+    font-family: 'Amethysta', serif;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -231,6 +220,7 @@ h3{
 
 }
 #conme{
+
     line-height: 3;
 }
 
@@ -255,4 +245,8 @@ h3{
 #movie{
     float: right;
     padding: 1%;
+}
+/* Responsividade*/
+@media screen and(max-width:800px){
+
 }
