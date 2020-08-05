@@ -10,7 +10,7 @@ h1{
     
     text-align: center;    
     color:cyan;
-    font-family: Gill Sans MT;    
+    font-family: 'Kanit', sans-serif;  
     padding: 1px;
     padding-left: 5px;
     padding-right: 5px;
@@ -89,7 +89,7 @@ h2{
     width: 100%;
 }
 header{
-    background-color:lightseagreen;
+    background-color: #2196F3;
     margin: 0;
     padding:1px 1px 1px 1px;
     
@@ -132,13 +132,11 @@ li:hover{
     height: 60px;
 }
 footer{
-    background-color:rgb(77, 77, 133);
+    background-color:#0652DD;
 }
-#conta:hover{
-    background-color: rgb(111, 111, 155);
+#conta{
     text-align: center;
     font-weight: bolder;
-    transition: .2s;
 }
 #se-2{
     background: url("imagens/fundos/fundo.png");
@@ -155,7 +153,7 @@ h3{
 /*Corpo1*/  
 #cont{
     margin: 0;
-    background-color:rgb(196, 196, 196);
+    background-color:#778ca3;
 }
 #projeto {
     line-height: 2;
@@ -168,9 +166,10 @@ h3{
 */
 .p-1{
     color: black;
-    font-size: small;
-    font-family:Arial;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
     font-style: initial;
+    line-height: 3;
     
 }
 .just{
@@ -198,11 +197,6 @@ h3{
 #cont2{
     margin: 0;
     background-color:rgb(196, 196, 196);
-}
-#van1{
-    color: black;
-    line-height: 2;
-    font-family: Arial, Helvetica, sans-serif;
 }
 #vantagem{
     width: 100%;
@@ -236,6 +230,10 @@ h3{
     background-color: white;
 
 }
+#conme{
+    line-height: 1;
+}
+
 
 #projetos{
     background-color:rgb(196, 196, 196);
