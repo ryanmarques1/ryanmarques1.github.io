@@ -250,7 +250,12 @@ h3{
 /* Responsividade*/
 
 @media screen and(max-width:800px){
-    #menu{
-        visibility: hidden;
+    .colum, .colum2, .colum3, .colum4{
+        display: block;
+        width: 80%;
     }
+    #projeto, #vantagem, #conme, #proj{
+        width: 100%;
+    }
+    
 }
