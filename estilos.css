@@ -256,7 +256,8 @@ h3{
     }
     header{
         text-align: center;
-        padding-top: 5%;
+        padding:5% 5% 5% 0;
+        height: 100px;
     }
     body{
         font-size:4vw;
@@ -282,6 +283,6 @@ h3{
     }
     #h-2{
         margin: 1%;
-        
+        padding:5% 1%;
     }
 }
