@@ -250,12 +250,23 @@ h3{
 /* Responsividade*/
 
 @media screen and(max-width:800px){
+    body{
+        font-size:3vw;
+    }
     .colum, .colum2, .colum3, .colum4{
         display: block;
         width: 80%;
     }
     #projeto, #vantagem, #conme, #proj{
         width: 100%;
+        text-align: center;
+        padding: 5%;
+
     }
-    
+    #se-2{
+        height: 80%;
+    }
+    h1{
+        margin: 5% 13% 0;
+    }
 }
