@@ -266,9 +266,15 @@ h3{
         padding: 5%;
     }
     #se-2{
-        height: 80%;
+        height: 70%;
     }
     h1{
-        margin: 20% 5% 0;
+        margin: 25% 5%;
+    }
+    h3{
+        padding: 7%;
+    }
+    #h-2{
+        margin: 5%;
     }
 }
