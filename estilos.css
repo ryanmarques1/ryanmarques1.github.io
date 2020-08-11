@@ -81,7 +81,6 @@ header{
     background-color: #2196F3;
     margin: 0;
     padding:1px 1px 1px 1px;
-    
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -258,7 +257,9 @@ footer{
     #se-2{
         height: 500px;
         width: 100%;
-        background-size: cover;    
+        background-size: cover; 
+        filter: contrast(100%);
+        filter: opacity(100%);
     }
     h1{
         margin: 20% 15% 0;
