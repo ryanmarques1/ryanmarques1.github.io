@@ -245,9 +245,11 @@ h3{
 }
 /* Responsividade*/
 
-@media screen and (min-width:0px) and (max-width:800px){
+@media screen and (max-width:900px){
     #menu{
         visibility: hidden;
+        width: 0;
+        height: 0;
     }
     header{
         text-align: center;
@@ -257,20 +259,22 @@ h3{
         font-size:4vw;
     }
     #se-2{
-        height: 80%;
+        height: 500px;
         width: 100%;
-        
+        background-size: cover;    
     }
     h1{
-        margin: 20% 5% 0;
-        padding:5% 5% 5% 5%;
+        margin: 60% 10% 0;
+       
     }
     h3{
-        padding: 10%;
+        visibility: hidden;
     }
     #h-2{
-        margin: 1%;
-        padding:5% 1%;
+        visibility: hidden;
+        /*
+        margin: 5% 5% 1% 5%;
+        padding:5% 0%;*/
     }
     .colum, .colum2, .colum3, .colum4{
         display: block;
@@ -284,5 +288,9 @@ h3{
     .p-1{
         font-size: 18px;
         padding: 5%;
+    }
+    #img1{
+        height: 250px;
+        width: 95%;
     }
 }
