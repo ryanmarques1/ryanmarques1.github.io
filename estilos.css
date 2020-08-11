@@ -262,11 +262,12 @@ footer{
         filter: opacity(100%);
     }
     h1{
-        margin: 20% 15% 0;
+        margin: 30% 15%;
+        padding: 1px 1px 0 0;
         font-size: 5vw;
     }
     #h-3{
-        visibility: hidden; 
+        visibility: hidden;
     }
     #h-2{
         visibility: hidden;
@@ -281,6 +282,7 @@ footer{
         box-sizing: border-box;
         padding: 20px 5% 10% 0;
     }
+    
     .p-1{
         font-size: 18px;
         padding: 5%;
