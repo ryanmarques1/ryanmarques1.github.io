@@ -243,13 +243,14 @@ footer{
 }
 /* Responsividade*/
 
-@media screen and (max-width:800px){
+@media screen and (min-width:0px) and (max-width:800px){
     #menu{
         visibility: hidden;
     }
     header{
         text-align: center;
         height: 80px;
+        z-index: 100;
     }
     body{
         font-size:4vw;
@@ -267,7 +268,7 @@ footer{
         font-size: 6vw;
         line-height: 1.2;
         text-align: center;
-        padding:1px;
+        padding:1px 0 0;
     }
     #h-3{
         visibility: hidden;
@@ -283,8 +284,8 @@ footer{
         width: 100%;
         text-align: center;
         box-sizing: border-box;
-        padding: 1%;
     }
+    
     .p-1{
         font-size: 18px;
         padding: 5%;
