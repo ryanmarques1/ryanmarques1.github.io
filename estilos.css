@@ -139,7 +139,7 @@ footer{
     padding:200px 150px 0;
     box-sizing: border-box;
 } 
-h3{
+#h-3{
     text-align: center;
 }
 /*Corpo1*/  
@@ -263,8 +263,8 @@ h3{
     h1{
         margin: 20% 15% 0;
     }
-    h3{
-        visibility: hidden;
+    #h-3{
+        visibility: hidden; 
     }
     #h-2{
         visibility: hidden;
@@ -276,7 +276,8 @@ h3{
     #projeto, #vantagem, #conme, #proj{
         width: 100%;
         text-align: center;
-        padding: 1%;
+        box-sizing: border-box;
+        padding: 20px 5% 0;
     }
     .p-1{
         font-size: 18px;
