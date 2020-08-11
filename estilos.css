@@ -243,7 +243,7 @@ footer{
 }
 /* Responsividade*/
 
-@media screen and (min-width:0px) and (max-width:800px){
+@media screen and (max-width:800px){
     #menu{
         visibility: hidden;
     }
@@ -260,15 +260,14 @@ footer{
         background-size: cover; 
         filter: contrast(100%);
         filter: opacity(100%);
+        box-sizing: border-box;
     }
     h1{
         margin: 35% 10%;
         font-size: 6vw;
         line-height: 1.2;
         text-align: center;
-        padding: 1px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding:1px;
     }
     #h-3{
         visibility: hidden;
@@ -284,17 +283,15 @@ footer{
         width: 100%;
         text-align: center;
         box-sizing: border-box;
-        
+        padding: 1%;
     }
-    
     .p-1{
         font-size: 18px;
         padding: 5%;
     }
     .v-1{
-        font: 25px;
+        font-size: 25px;
         padding: 5%;
-        background-color: #FF5722;
     }
     #img1{
         height: 50%;
