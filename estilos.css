@@ -243,7 +243,7 @@ footer{
 }
 /* Responsividade*/
 
-@media screen and (max-width:900px){
+@media screen and (max-width:800px){
     #menu{
         visibility: hidden;
     }
@@ -285,6 +285,7 @@ footer{
         text-align: center;
         box-sizing: border-box;
         padding: 20px 5% 10% 10%;
+        
     }
     
     .p-1{
