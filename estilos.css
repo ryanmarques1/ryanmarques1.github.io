@@ -251,6 +251,7 @@ footer{
     header{
         text-align: center;
         height: 80px;
+        width: 100%;
     }
     body{
         font-size:4vw;
@@ -277,7 +278,7 @@ footer{
         width: 100%;
         text-align: center;
         box-sizing: border-box;
-        padding: 20px 5% 0;
+        padding: 20px 5% 10% 0;
     }
     .p-1{
         font-size: 18px;
@@ -288,7 +289,7 @@ footer{
         padding: 5%;
     }
     #img1{
-        height: 250px;
-        width: 95%;
+        height: 50%;
+        width: 100%;
     }
 }
