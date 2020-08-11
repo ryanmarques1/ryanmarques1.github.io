@@ -263,8 +263,12 @@ footer{
     }
     h1{
         margin: 30% 10%;
-        padding: 1px 1px 0 0;
         font-size: 5vw;
+        line-height: 1;
+        text-align: center;
+        padding: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #h-3{
         visibility: hidden;
