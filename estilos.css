@@ -263,6 +263,7 @@ footer{
     }
     h1{
         margin: 20% 15% 0;
+        font-size: 5vw;
     }
     #h-3{
         visibility: hidden; 
