@@ -172,6 +172,7 @@ footer{
 .colum2{
     width: 45%;
     margin: 0 1% 1% 1%;
+    position: relative;
 }
 .colum3{
     width: 26%;
@@ -257,7 +258,7 @@ footer{
         font-size:4vw;
     }
     #se-2{
-        height: 350px;
+        height: 500px;
         width: 100%;
         background-size: cover; 
         filter: contrast(100%);
@@ -266,7 +267,7 @@ footer{
         
     }
     h1{
-        margin: 35% 10%;
+        margin: 25% 15%;
         font-size: 6vw;
         line-height: 1.2;
         text-align: center;
@@ -281,11 +282,13 @@ footer{
     .colum, .colum2, .colum3, .colum4{
         display: block;
         width: 100%;
+        padding: 0;
     }
     #projeto, #vantagem, #conme, #proj{
         width: 100%;
         text-align: center;
         box-sizing: border-box;
+        background-color: white;
     }
     
     .p-1{
@@ -296,8 +299,8 @@ footer{
         font-size: 25px;
         padding: 5%;
     }
-    #img1{
-        
+    #img1{ 
         width: 95%;
     }
+    
 }
