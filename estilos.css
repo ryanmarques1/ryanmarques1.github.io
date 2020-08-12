@@ -243,7 +243,7 @@ footer{
 }
 /* Responsividade*/
 
-@media only screen and (max-width:800px){
+@media all and (max-width:800px){
     #menu{
         visibility: hidden;
     }
@@ -253,7 +253,7 @@ footer{
         z-index: 100;
     }
     body{
-        
+        display: block;
         font-size:4vw;
     }
     #se-2{
