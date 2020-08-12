@@ -244,7 +244,7 @@ footer{
 }
 /* Responsividade*/
 
-@media all and (max-width: 768px){
+@media all and (max-width: 800px){
     #menu{
         visibility: hidden;
     }
@@ -256,6 +256,7 @@ footer{
     body{
         display: block;
         font-size:4vw;
+        
     }
     #se-2{
         height: 500px;
@@ -283,6 +284,7 @@ footer{
         display: block;
         width: 100%;
         padding: 0;
+        
     }
     #projeto, #vantagem, #conme, #proj{
         width: 100%;
@@ -294,10 +296,12 @@ footer{
     .p-1{
         font-size: 18px;
         padding: 5%;
+        
     }
     .v-1{
         font-size: 25px;
         padding: 5%;
+        background-color: white;
     }
     #img1{ 
         width: 95%;
