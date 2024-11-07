@@ -1,0 +1,161 @@
+
+/* Estilo Geral */
+*{ /*Resetar*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh; /*espaço todo*/
+}
+
+.hud{
+    max-width: 1280px;
+    margin: 0 auto; /*centralizar na tela*/
+}
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(64, 199, 1);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+img{
+    border-radius: 40px;
+}
+
+h2.titulo{
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+
+}
+h2.titulo span{
+    color: green;
+}
+/* Estilo do cabeçalho */
+header{
+    padding: 40px 4%;
+
+}
+
+header > .hud{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(146, 144, 144);
+    text-decoration: none;
+    display: inline-block;
+    transition: .35s;
+}
+
+header a:hover{
+    color: #e0d8d8;
+    transform: scale(1.2);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    /* sequencial */
+    display: inline-block; 
+    padding: 0 40px;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgba(74, 163, 33, 0.862);
+    transform: scale(1.2);
+}
+
+/* Estilo topo do site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: whitesmoke;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.topo-do-site.topo-do-site h1 span{
+    color: rgb(6, 221, 17);
+}
+
+.topo-do-site.topo-do-site p{
+    color: whitesmoke;
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2.5s ease-in-out infinite alternate;
+
+
+}
+@keyframes flutuar{/*Animação*/
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/* Estilo das habilidades */
+
+section.especialidades{
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 65px;
+}
+
+.especialidades .especialidades-box{
+    color: whitesmoke;
+    padding: 42px;
+    /* border: 2px solid rgb(243, 238, 238); */
+    margin-top: 29px;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 8px rgba(243, 239, 239, 0.536);
+}
+.especialidades .especialidades-box i{
+    font-size: 55px;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 12px 0;
+}
+
+
+/* Estilo do sobre */
